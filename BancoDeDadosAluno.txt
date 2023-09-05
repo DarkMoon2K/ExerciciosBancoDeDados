@@ -1,0 +1,17 @@
+CREATE TABLE aluno(
+ra VARCHAR(10),
+nome VARCHAR(40),
+dataNascimento DATE,
+endereco VARCHAR(100),
+email VARCHAR(30)
+);
+
+INSERT INTO aluno (ra, nome, dataNascimento, endereco, email) VALUES (123456, "Kaua", "04-01-2004", "Rua da felicidade", "kauahenrique7@gmail.com");
+INSERT INTO aluno (ra, nome, dataNascimento, endereco, email) VALUES (102030, "Matheus", "31-07-2006", "Rua normal", "matheus@gmail.com");
+INSERT INTO aluno (ra, nome, dataNascimento, endereco, email) VALUES (405060, "William", "07-04-2002", "Rua triste", "william@gmail.com");
+INSERT INTO aluno (ra, nome, dataNascimento, endereco, email) VALUES (708090, "Teruo", "18-09-1999", "Rua cogumelo", "teruo@gmail.com");
+INSERT INTO aluno (ra, nome, dataNascimento, endereco, email) VALUES (100110, "Paulinho", "10-10-2003", "Rua da felicidade", "paulinho@gmail.com");
+
+SELECT * FROM aluno;
+
+DROP TABLE aluno;
