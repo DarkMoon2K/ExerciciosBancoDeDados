@@ -1,0 +1,21 @@
+CREATE TABLE desenvolvedores(
+NOME VARCHAR(50),
+CPF VARCHAR(15),
+NASCIMENTO DATE
+);
+
+CREATE TABLE projetos(
+NOME VARCHAR(50),
+LANCAMENTO DATE,
+GENERO VARCHAR(30),
+FaixaEtaria VARCHAR(30)
+);
+
+INSERT INTO desenvolvedores(NOME, CPF, NASCIMENTO) VALUES ("Kauã","12345678910",'2004-01-04');
+INSERT INTO projetos(NOME, LANCAMENTO, GENERO, FaixaEtaria) VALUES ("Starfield","2023-09-06","RPG", "NC-17");
+
+SELECT * FROM desenvolvedores;
+SELECT * FROM projetos;
+
+DROP TABLE desenvolvedores;
+Drop TABLE projetos;
