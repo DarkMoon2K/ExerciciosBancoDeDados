@@ -18,4 +18,4 @@ SELECT * FROM desenvolvedores;
 SELECT * FROM projetos;
 
 DROP TABLE desenvolvedores;
-Drop TABLE projetos;
+DROP TABLE projetos;
