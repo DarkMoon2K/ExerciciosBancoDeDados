@@ -1,0 +1,22 @@
+CREATE TABLE autores(
+NOME VARCHAR(50),
+EMAIL VARCHAR(100),
+NACIONALIDADE VARCHAR(50),
+NASCIMENTO DATE
+);
+
+CREATE TABLE livros(
+TITULO VARCHAR(50),
+PAGINAS INT,
+EDITORA VARCHAR(50),
+ACABAMENTO VARCHAR(50)
+);
+
+INSERT INTO autores(NOME, EMAIL, NACIONALIDADE, NASCIMENTO) VALUES ("Murray N. Rothbard","murrayrothbard@gmail.com",'estadunidense', "1926-03-02");
+INSERT INTO livros(TITULO, PAGINAS, EDITORA, ACABAMENTO) VALUES ("Indivíduo, Economia e Estado",848,"Lvm Editora", "Encadernado");
+
+SELECT * FROM autores;
+SELECT * FROM livros;
+
+DROP TABLE autores;
+Drop TABLE livros;
