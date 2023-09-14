@@ -59,7 +59,7 @@ Uma locadora de automóveis, mantém registro dos automóveis. Um automóvel é 
 Um supermercado cadastra seus produtos. Um produto é identificado por seu nome, preço, quantidade em estoque, nome da marca, SAC da marca, nacionalidade da marca.
 
 ### DER:
-![DER:](SuperMercado.png)
+![DER:](Mercado.png)
 
 ### Codigo: 
 ![Codigo:](BancoDeDadosMercado.txt)
