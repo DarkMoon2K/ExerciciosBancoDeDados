@@ -33,3 +33,7 @@ Cada projeto tem um nome, data de lançamento, gênero e faixa etária. Segundo 
 
 ### Codigo:
 ![Codigo:](BancoDeDadosEstudioDeGames.txt)
+
+
+## Exercicio 5 - Modelo Biblioteca
+Uma biblioteca efetua registro de autores e livros. Um autor é cadastrado com seu nome, e-mail, nacionalidade e data de nascimento. Já um livro é registrado com o título, quantidade de páginas, acabamento e editora.
