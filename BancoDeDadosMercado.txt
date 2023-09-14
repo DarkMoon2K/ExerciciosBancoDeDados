@@ -1,0 +1,20 @@
+CREATE TABLE produtos(
+NOME VARCHAR(50),
+PREÇO DECIMAL(10,2),
+QUANTIDADE INT
+);
+
+CREATE TABLE marcas(
+NOME VARCHAR(50),
+SAC VARCHAR(50),
+NACIONALIDADE VARCHAR(50)
+);
+
+INSERT INTO produtos VALUES ("Nuka Cola",8.99,30);
+INSERT INTO marcas VALUES ("Nuka", "Nuka.com","estadunidense");
+
+SELECT * FROM produtos;
+SELECT * FROM marcas;
+
+DROP TABLE produtos;
+Drop TABLE marcas;

@@ -1,0 +1,21 @@
+CREATE TABLE filmes(
+TITULO VARCHAR(50),
+PREÇO DECIMAL(10,2),
+DURACAO INT,
+IDIOMA_ORIGINAL VARCHAR(50)
+);
+
+CREATE TABLE elencos(
+NOME VARCHAR(50),
+NASCIMENTO DATE,
+NACIONALIDADE VARCHAR(50)
+);
+
+INSERT INTO filmes VALUES ("Clube da Luta",9.99,139,"Ingles");
+INSERT INTO elencos VALUES ("Brad Pitt", "1963-12-13","estadunidense");
+
+SELECT * FROM filmes;
+SELECT * FROM elencos;
+
+DROP TABLE filmes;
+Drop TABLE elencos;

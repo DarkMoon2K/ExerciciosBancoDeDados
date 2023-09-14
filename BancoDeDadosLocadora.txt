@@ -1,0 +1,20 @@
+CREATE TABLE montadoras(
+NOME VARCHAR(50),
+SITE VARCHAR(50),
+LOGOTIPO VARCHAR(100)
+);
+
+CREATE TABLE automoveis(
+PLACA VARCHAR(20),
+MODELO VARCHAR(50),
+ANO DATE
+);
+
+INSERT INTO montadoras VALUES ("Fiat","www.fiat.com.br","LogotivoFiat.png");
+INSERT INTO automoveis VALUES ("ABCD1234", "Fastback","2023");
+
+SELECT * FROM montadoras;
+SELECT * FROM automoveis;
+
+DROP TABLE montadoras;
+Drop TABLE automoveis;
